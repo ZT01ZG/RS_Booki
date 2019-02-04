@@ -16,7 +16,20 @@
 		45034E182207CF0C008D9FF5 /* RS_BookiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E172207CF0C008D9FF5 /* RS_BookiUITests.swift */; };
 		45034E262207D025008D9FF5 /* LibraryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E252207D025008D9FF5 /* LibraryCollectionViewController.swift */; };
 		45034E282207D14E008D9FF5 /* MysteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E272207D14E008D9FF5 /* MysteryViewController.swift */; };
-		45034E2C2207D4A1008D9FF5 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 45034E2B2207D4A1008D9FF5 /* Extensions */; };
+		45034E3D2207D6E4008D9FF5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E2E2207D6E3008D9FF5 /* Constants.swift */; };
+		45034E3E2207D6E4008D9FF5 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E2F2207D6E3008D9FF5 /* Extension+UIImage.swift */; };
+		45034E3F2207D6E4008D9FF5 /* Extensions+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E302207D6E3008D9FF5 /* Extensions+UIColor.swift */; };
+		45034E402207D6E4008D9FF5 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E312207D6E3008D9FF5 /* Extensions+UIView.swift */; };
+		45034E412207D6E4008D9FF5 /* SPXTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E332207D6E3008D9FF5 /* SPXTableViewCell.swift */; };
+		45034E422207D6E4008D9FF5 /* SPXLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E342207D6E3008D9FF5 /* SPXLabel.swift */; };
+		45034E432207D6E4008D9FF5 /* SPXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E352207D6E3008D9FF5 /* SPXView.swift */; };
+		45034E442207D6E4008D9FF5 /* SPXStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E362207D6E3008D9FF5 /* SPXStackView.swift */; };
+		45034E452207D6E4008D9FF5 /* AddConstraintsWithFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E372207D6E3008D9FF5 /* AddConstraintsWithFormat.swift */; };
+		45034E462207D6E4008D9FF5 /* SPXFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E382207D6E3008D9FF5 /* SPXFont.swift */; };
+		45034E472207D6E4008D9FF5 /* SPXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E392207D6E3008D9FF5 /* SPXNavigationController.swift */; };
+		45034E482207D6E4008D9FF5 /* SPXImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E3A2207D6E3008D9FF5 /* SPXImageView.swift */; };
+		45034E492207D6E4008D9FF5 /* SPXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E3B2207D6E3008D9FF5 /* SPXButton.swift */; };
+		45034E4A2207D6E4008D9FF5 /* Extensions+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E3C2207D6E3008D9FF5 /* Extensions+UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +65,20 @@
 		45034E192207CF0C008D9FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45034E252207D025008D9FF5 /* LibraryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionViewController.swift; sourceTree = "<group>"; };
 		45034E272207D14E008D9FF5 /* MysteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysteryViewController.swift; sourceTree = "<group>"; };
-		45034E2B2207D4A1008D9FF5 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
+		45034E2E2207D6E3008D9FF5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		45034E2F2207D6E3008D9FF5 /* Extension+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		45034E302207D6E3008D9FF5 /* Extensions+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIColor.swift"; sourceTree = "<group>"; };
+		45034E312207D6E3008D9FF5 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		45034E332207D6E3008D9FF5 /* SPXTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPXTableViewCell.swift; sourceTree = "<group>"; };
+		45034E342207D6E3008D9FF5 /* SPXLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPXLabel.swift; sourceTree = "<group>"; };
+		45034E352207D6E3008D9FF5 /* SPXView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPXView.swift; sourceTree = "<group>"; };
+		45034E362207D6E3008D9FF5 /* SPXStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPXStackView.swift; sourceTree = "<group>"; };
+		45034E372207D6E3008D9FF5 /* AddConstraintsWithFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddConstraintsWithFormat.swift; sourceTree = "<group>"; };
+		45034E382207D6E3008D9FF5 /* SPXFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPXFont.swift; sourceTree = "<group>"; };
+		45034E392207D6E3008D9FF5 /* SPXNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPXNavigationController.swift; sourceTree = "<group>"; };
+		45034E3A2207D6E3008D9FF5 /* SPXImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPXImageView.swift; sourceTree = "<group>"; };
+		45034E3B2207D6E3008D9FF5 /* SPXButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPXButton.swift; sourceTree = "<group>"; };
+		45034E3C2207D6E3008D9FF5 /* Extensions+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				45034DF72207CF0B008D9FF5 /* AppDelegate.swift */,
-				45034E2B2207D4A1008D9FF5 /* Extensions */,
 				45034E252207D025008D9FF5 /* LibraryCollectionViewController.swift */,
+				45034E2D2207D6E3008D9FF5 /* Extensions */,
 				45034E272207D14E008D9FF5 /* MysteryViewController.swift */,
 				45034DF92207CF0B008D9FF5 /* ViewController.swift */,
 				45034DFB2207CF0B008D9FF5 /* Main.storyboard */,
@@ -132,6 +158,35 @@
 				45034E192207CF0C008D9FF5 /* Info.plist */,
 			);
 			path = RS_BookiUITests;
+			sourceTree = "<group>";
+		};
+		45034E2D2207D6E3008D9FF5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45034E2E2207D6E3008D9FF5 /* Constants.swift */,
+				45034E2F2207D6E3008D9FF5 /* Extension+UIImage.swift */,
+				45034E302207D6E3008D9FF5 /* Extensions+UIColor.swift */,
+				45034E312207D6E3008D9FF5 /* Extensions+UIView.swift */,
+				45034E322207D6E3008D9FF5 /* SPXHumbleBundle */,
+				45034E3C2207D6E3008D9FF5 /* Extensions+UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45034E322207D6E3008D9FF5 /* SPXHumbleBundle */ = {
+			isa = PBXGroup;
+			children = (
+				45034E332207D6E3008D9FF5 /* SPXTableViewCell.swift */,
+				45034E342207D6E3008D9FF5 /* SPXLabel.swift */,
+				45034E352207D6E3008D9FF5 /* SPXView.swift */,
+				45034E362207D6E3008D9FF5 /* SPXStackView.swift */,
+				45034E372207D6E3008D9FF5 /* AddConstraintsWithFormat.swift */,
+				45034E382207D6E3008D9FF5 /* SPXFont.swift */,
+				45034E392207D6E3008D9FF5 /* SPXNavigationController.swift */,
+				45034E3A2207D6E3008D9FF5 /* SPXImageView.swift */,
+				45034E3B2207D6E3008D9FF5 /* SPXButton.swift */,
+			);
+			path = SPXHumbleBundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +295,6 @@
 			files = (
 				45034E022207CF0B008D9FF5 /* LaunchScreen.storyboard in Resources */,
 				45034DFF2207CF0B008D9FF5 /* Assets.xcassets in Resources */,
-				45034E2C2207D4A1008D9FF5 /* Extensions in Resources */,
 				45034DFD2207CF0B008D9FF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,9 +320,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45034E452207D6E4008D9FF5 /* AddConstraintsWithFormat.swift in Sources */,
+				45034E3D2207D6E4008D9FF5 /* Constants.swift in Sources */,
+				45034E442207D6E4008D9FF5 /* SPXStackView.swift in Sources */,
+				45034E3F2207D6E4008D9FF5 /* Extensions+UIColor.swift in Sources */,
+				45034E432207D6E4008D9FF5 /* SPXView.swift in Sources */,
 				45034DFA2207CF0B008D9FF5 /* ViewController.swift in Sources */,
+				45034E482207D6E4008D9FF5 /* SPXImageView.swift in Sources */,
+				45034E462207D6E4008D9FF5 /* SPXFont.swift in Sources */,
 				45034E282207D14E008D9FF5 /* MysteryViewController.swift in Sources */,
+				45034E4A2207D6E4008D9FF5 /* Extensions+UIImage.swift in Sources */,
+				45034E492207D6E4008D9FF5 /* SPXButton.swift in Sources */,
+				45034E412207D6E4008D9FF5 /* SPXTableViewCell.swift in Sources */,
+				45034E472207D6E4008D9FF5 /* SPXNavigationController.swift in Sources */,
+				45034E3E2207D6E4008D9FF5 /* Extension+UIImage.swift in Sources */,
 				45034E262207D025008D9FF5 /* LibraryCollectionViewController.swift in Sources */,
+				45034E402207D6E4008D9FF5 /* Extensions+UIView.swift in Sources */,
+				45034E422207D6E4008D9FF5 /* SPXLabel.swift in Sources */,
 				45034DF82207CF0B008D9FF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
