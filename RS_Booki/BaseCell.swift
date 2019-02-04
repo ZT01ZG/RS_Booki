@@ -15,7 +15,7 @@ class BaseCell: UICollectionViewCell {
     }
     
     func setupViews() {
-        backgroundColor = MSXColors.lighterAmbientColor
+        backgroundColor = UIColor.orange
         clipsToBounds = true
         layer.cornerRadius = self.frame.width / 16
         

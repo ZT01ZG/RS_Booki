@@ -12,11 +12,9 @@ struct PDBook: Codable {
     var bookMainTitle: String
     var bookSubTitle: String
     var bookStatus: BookStatus
+    var author: Author
     
     enum BookStatus: String, Codable {
         case available, wishlist, unavailable
     }
-//    var author: Author
-//    var bookImage: String
-//    var registered: Date
 }
