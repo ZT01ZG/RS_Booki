@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		45034DF82207CF0B008D9FF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034DF72207CF0B008D9FF5 /* AppDelegate.swift */; };
-		45034DFA2207CF0B008D9FF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034DF92207CF0B008D9FF5 /* ViewController.swift */; };
 		45034DFD2207CF0B008D9FF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45034DFB2207CF0B008D9FF5 /* Main.storyboard */; };
 		45034DFF2207CF0B008D9FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45034DFE2207CF0B008D9FF5 /* Assets.xcassets */; };
 		45034E022207CF0B008D9FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45034E002207CF0B008D9FF5 /* LaunchScreen.storyboard */; };
@@ -30,6 +29,15 @@
 		45034E482207D6E4008D9FF5 /* SPXImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E3A2207D6E3008D9FF5 /* SPXImageView.swift */; };
 		45034E492207D6E4008D9FF5 /* SPXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E3B2207D6E3008D9FF5 /* SPXButton.swift */; };
 		45034E4A2207D6E4008D9FF5 /* Extensions+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E3C2207D6E3008D9FF5 /* Extensions+UIImage.swift */; };
+		45034E4C2207D88E008D9FF5 /* PDBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E4B2207D88E008D9FF5 /* PDBook.swift */; };
+		45034E4E22080260008D9FF5 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E4D22080260008D9FF5 /* Author.swift */; };
+		45034E502208036E008D9FF5 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E4F2208036E008D9FF5 /* BaseCell.swift */; };
+		45034E5222080541008D9FF5 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E5122080541008D9FF5 /* BookCell.swift */; };
+		45201C222208CE4A0003D9CE /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45201C212208CE4A0003D9CE /* Pet.swift */; };
+		45201C242208D0100003D9CE /* JSONDecoder-Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45201C232208D0100003D9CE /* JSONDecoder-Remote.swift */; };
+		45201C262208D0450003D9CE /* LibraryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45201C252208D0450003D9CE /* LibraryDataSource.swift */; };
+		45201C282208D9690003D9CE /* LibraryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45201C272208D9690003D9CE /* LibraryDelegate.swift */; };
+		45201C2A2208FA940003D9CE /* JSONEncoder-Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45201C292208FA940003D9CE /* JSONEncoder-Remote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +60,6 @@
 /* Begin PBXFileReference section */
 		45034DF42207CF0A008D9FF5 /* RS_Booki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RS_Booki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45034DF72207CF0B008D9FF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45034DF92207CF0B008D9FF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		45034DFC2207CF0B008D9FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45034DFE2207CF0B008D9FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45034E012207CF0B008D9FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,6 +86,15 @@
 		45034E3A2207D6E3008D9FF5 /* SPXImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPXImageView.swift; sourceTree = "<group>"; };
 		45034E3B2207D6E3008D9FF5 /* SPXButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPXButton.swift; sourceTree = "<group>"; };
 		45034E3C2207D6E3008D9FF5 /* Extensions+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIImage.swift"; sourceTree = "<group>"; };
+		45034E4B2207D88E008D9FF5 /* PDBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDBook.swift; sourceTree = "<group>"; };
+		45034E4D22080260008D9FF5 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		45034E4F2208036E008D9FF5 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		45034E5122080541008D9FF5 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		45201C212208CE4A0003D9CE /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		45201C232208D0100003D9CE /* JSONDecoder-Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder-Remote.swift"; sourceTree = "<group>"; };
+		45201C252208D0450003D9CE /* LibraryDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDataSource.swift; sourceTree = "<group>"; };
+		45201C272208D9690003D9CE /* LibraryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDelegate.swift; sourceTree = "<group>"; };
+		45201C292208FA940003D9CE /* JSONEncoder-Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONEncoder-Remote.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,9 +147,17 @@
 			children = (
 				45034DF72207CF0B008D9FF5 /* AppDelegate.swift */,
 				45034E252207D025008D9FF5 /* LibraryCollectionViewController.swift */,
+				45201C252208D0450003D9CE /* LibraryDataSource.swift */,
+				45201C272208D9690003D9CE /* LibraryDelegate.swift */,
 				45034E2D2207D6E3008D9FF5 /* Extensions */,
+				45034E4B2207D88E008D9FF5 /* PDBook.swift */,
+				45201C212208CE4A0003D9CE /* Pet.swift */,
+				45034E4D22080260008D9FF5 /* Author.swift */,
+				45034E4F2208036E008D9FF5 /* BaseCell.swift */,
+				45034E5122080541008D9FF5 /* BookCell.swift */,
+				45201C232208D0100003D9CE /* JSONDecoder-Remote.swift */,
+				45201C292208FA940003D9CE /* JSONEncoder-Remote.swift */,
 				45034E272207D14E008D9FF5 /* MysteryViewController.swift */,
-				45034DF92207CF0B008D9FF5 /* ViewController.swift */,
 				45034DFB2207CF0B008D9FF5 /* Main.storyboard */,
 				45034DFE2207CF0B008D9FF5 /* Assets.xcassets */,
 				45034E002207CF0B008D9FF5 /* LaunchScreen.storyboard */,
@@ -163,11 +187,11 @@
 		45034E2D2207D6E3008D9FF5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				45034E322207D6E3008D9FF5 /* SPXHumbleBundle */,
 				45034E2E2207D6E3008D9FF5 /* Constants.swift */,
 				45034E2F2207D6E3008D9FF5 /* Extension+UIImage.swift */,
 				45034E302207D6E3008D9FF5 /* Extensions+UIColor.swift */,
 				45034E312207D6E3008D9FF5 /* Extensions+UIView.swift */,
-				45034E322207D6E3008D9FF5 /* SPXHumbleBundle */,
 				45034E3C2207D6E3008D9FF5 /* Extensions+UIImage.swift */,
 			);
 			path = Extensions;
@@ -323,21 +347,29 @@
 				45034E452207D6E4008D9FF5 /* AddConstraintsWithFormat.swift in Sources */,
 				45034E3D2207D6E4008D9FF5 /* Constants.swift in Sources */,
 				45034E442207D6E4008D9FF5 /* SPXStackView.swift in Sources */,
+				45034E5222080541008D9FF5 /* BookCell.swift in Sources */,
 				45034E3F2207D6E4008D9FF5 /* Extensions+UIColor.swift in Sources */,
 				45034E432207D6E4008D9FF5 /* SPXView.swift in Sources */,
-				45034DFA2207CF0B008D9FF5 /* ViewController.swift in Sources */,
 				45034E482207D6E4008D9FF5 /* SPXImageView.swift in Sources */,
 				45034E462207D6E4008D9FF5 /* SPXFont.swift in Sources */,
 				45034E282207D14E008D9FF5 /* MysteryViewController.swift in Sources */,
+				45034E502208036E008D9FF5 /* BaseCell.swift in Sources */,
 				45034E4A2207D6E4008D9FF5 /* Extensions+UIImage.swift in Sources */,
+				45034E4C2207D88E008D9FF5 /* PDBook.swift in Sources */,
 				45034E492207D6E4008D9FF5 /* SPXButton.swift in Sources */,
 				45034E412207D6E4008D9FF5 /* SPXTableViewCell.swift in Sources */,
 				45034E472207D6E4008D9FF5 /* SPXNavigationController.swift in Sources */,
+				45034E4E22080260008D9FF5 /* Author.swift in Sources */,
 				45034E3E2207D6E4008D9FF5 /* Extension+UIImage.swift in Sources */,
+				45201C282208D9690003D9CE /* LibraryDelegate.swift in Sources */,
 				45034E262207D025008D9FF5 /* LibraryCollectionViewController.swift in Sources */,
+				45201C262208D0450003D9CE /* LibraryDataSource.swift in Sources */,
 				45034E402207D6E4008D9FF5 /* Extensions+UIView.swift in Sources */,
 				45034E422207D6E4008D9FF5 /* SPXLabel.swift in Sources */,
 				45034DF82207CF0B008D9FF5 /* AppDelegate.swift in Sources */,
+				45201C222208CE4A0003D9CE /* Pet.swift in Sources */,
+				45201C2A2208FA940003D9CE /* JSONEncoder-Remote.swift in Sources */,
+				45201C242208D0100003D9CE /* JSONDecoder-Remote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
