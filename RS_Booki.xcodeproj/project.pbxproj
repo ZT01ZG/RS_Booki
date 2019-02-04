@@ -14,6 +14,9 @@
 		45034E022207CF0B008D9FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45034E002207CF0B008D9FF5 /* LaunchScreen.storyboard */; };
 		45034E0D2207CF0C008D9FF5 /* RS_BookiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E0C2207CF0C008D9FF5 /* RS_BookiTests.swift */; };
 		45034E182207CF0C008D9FF5 /* RS_BookiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E172207CF0C008D9FF5 /* RS_BookiUITests.swift */; };
+		45034E262207D025008D9FF5 /* LibraryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E252207D025008D9FF5 /* LibraryCollectionViewController.swift */; };
+		45034E282207D14E008D9FF5 /* MysteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45034E272207D14E008D9FF5 /* MysteryViewController.swift */; };
+		45034E2C2207D4A1008D9FF5 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 45034E2B2207D4A1008D9FF5 /* Extensions */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		45034E132207CF0C008D9FF5 /* RS_BookiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RS_BookiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45034E172207CF0C008D9FF5 /* RS_BookiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RS_BookiUITests.swift; sourceTree = "<group>"; };
 		45034E192207CF0C008D9FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45034E252207D025008D9FF5 /* LibraryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionViewController.swift; sourceTree = "<group>"; };
+		45034E272207D14E008D9FF5 /* MysteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysteryViewController.swift; sourceTree = "<group>"; };
+		45034E2B2207D4A1008D9FF5 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				45034DF72207CF0B008D9FF5 /* AppDelegate.swift */,
+				45034E2B2207D4A1008D9FF5 /* Extensions */,
+				45034E252207D025008D9FF5 /* LibraryCollectionViewController.swift */,
+				45034E272207D14E008D9FF5 /* MysteryViewController.swift */,
 				45034DF92207CF0B008D9FF5 /* ViewController.swift */,
 				45034DFB2207CF0B008D9FF5 /* Main.storyboard */,
 				45034DFE2207CF0B008D9FF5 /* Assets.xcassets */,
@@ -231,6 +240,7 @@
 			files = (
 				45034E022207CF0B008D9FF5 /* LaunchScreen.storyboard in Resources */,
 				45034DFF2207CF0B008D9FF5 /* Assets.xcassets in Resources */,
+				45034E2C2207D4A1008D9FF5 /* Extensions in Resources */,
 				45034DFD2207CF0B008D9FF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				45034DFA2207CF0B008D9FF5 /* ViewController.swift in Sources */,
+				45034E282207D14E008D9FF5 /* MysteryViewController.swift in Sources */,
+				45034E262207D025008D9FF5 /* LibraryCollectionViewController.swift in Sources */,
 				45034DF82207CF0B008D9FF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
