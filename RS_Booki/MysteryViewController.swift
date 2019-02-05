@@ -9,7 +9,20 @@
 import UIKit
 
 class MysteryViewController: UIViewController {
+    
+    var item: Pet!
+    
+    let animalName: SPXLabel = {
+        let lbl = SPXLabel(title: "#ANIMAL#", color: .clear, colorOfLabelText: .black)
+        lbl.font = UIFont.myBoldFont(ofSize: 40)
+        return lbl
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.addSubview(animalName)
+        animalName.centerInSuperview()
+        animalName.text = item.name
     }
 }

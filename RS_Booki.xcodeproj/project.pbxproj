@@ -146,18 +146,13 @@
 			isa = PBXGroup;
 			children = (
 				45034DF72207CF0B008D9FF5 /* AppDelegate.swift */,
+				45F4E90722097339001EBEEE /* Model */,
 				45034E252207D025008D9FF5 /* LibraryCollectionViewController.swift */,
+				45034E272207D14E008D9FF5 /* MysteryViewController.swift */,
 				45201C252208D0450003D9CE /* LibraryDataSource.swift */,
 				45201C272208D9690003D9CE /* LibraryDelegate.swift */,
 				45034E2D2207D6E3008D9FF5 /* Extensions */,
-				45034E4B2207D88E008D9FF5 /* PDBook.swift */,
-				45034E4D22080260008D9FF5 /* Author.swift */,
-				45201C212208CE4A0003D9CE /* Pet.swift */,
-				45034E4F2208036E008D9FF5 /* BaseCell.swift */,
-				45034E5122080541008D9FF5 /* BookCell.swift */,
-				45201C232208D0100003D9CE /* JSONDecoder-Remote.swift */,
-				45201C292208FA940003D9CE /* JSONEncoder-Remote.swift */,
-				45034E272207D14E008D9FF5 /* MysteryViewController.swift */,
+				45F4E90622097319001EBEEE /* Cells */,
 				45034DFB2207CF0B008D9FF5 /* Main.storyboard */,
 				45034DFE2207CF0B008D9FF5 /* Assets.xcassets */,
 				45034E002207CF0B008D9FF5 /* LaunchScreen.storyboard */,
@@ -189,6 +184,8 @@
 			children = (
 				45034E322207D6E3008D9FF5 /* SPXHumbleBundle */,
 				45034E2E2207D6E3008D9FF5 /* Constants.swift */,
+				45201C232208D0100003D9CE /* JSONDecoder-Remote.swift */,
+				45201C292208FA940003D9CE /* JSONEncoder-Remote.swift */,
 				45034E2F2207D6E3008D9FF5 /* Extension+UIImage.swift */,
 				45034E302207D6E3008D9FF5 /* Extensions+UIColor.swift */,
 				45034E312207D6E3008D9FF5 /* Extensions+UIView.swift */,
@@ -211,6 +208,25 @@
 				45034E3B2207D6E3008D9FF5 /* SPXButton.swift */,
 			);
 			path = SPXHumbleBundle;
+			sourceTree = "<group>";
+		};
+		45F4E90622097319001EBEEE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				45034E4F2208036E008D9FF5 /* BaseCell.swift */,
+				45034E5122080541008D9FF5 /* BookCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		45F4E90722097339001EBEEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45034E4B2207D88E008D9FF5 /* PDBook.swift */,
+				45034E4D22080260008D9FF5 /* Author.swift */,
+				45201C212208CE4A0003D9CE /* Pet.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

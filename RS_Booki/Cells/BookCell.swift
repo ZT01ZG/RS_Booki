@@ -10,8 +10,9 @@ import UIKit
 
 class BookCell: BaseCell {
     
-    let bookTitleLabel: SPXLabel = {
+    var bookTitleLabel: SPXLabel = {
         let lbl = SPXLabel(title: "bookTitle", color: .clear, colorOfLabelText: MSXColors.darkerAmbientColor)
+        lbl.font = UIFont.myBoldFont(ofSize: 30)
         return lbl
     }()
     
@@ -22,6 +23,7 @@ class BookCell: BaseCell {
     
     override func setupViews() {
         super.setupViews()
+        backgroundColor = MSXColors.lighterAmbientColor
         addSubview(bookTitleLabel)
         bookTitleLabel.anchor(top: self.topAnchor, leading: self.leadingAnchor, bottom: self.bottomAnchor, trailing: self.trailingAnchor, padding: .init(top: 2, left: 2, bottom: 2, right: 2))
     }
